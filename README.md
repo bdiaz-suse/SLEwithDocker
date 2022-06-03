@@ -8,7 +8,7 @@ Requirements:
 
 To build a container with 8 GiB memory:
 
-  docker build -m 8G -t slewdocker .
+docker build -m 8G -t slewdocker .
 
 Create a network for containers' use:
 
