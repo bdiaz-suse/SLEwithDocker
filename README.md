@@ -16,4 +16,4 @@ docker network create -d bridge --subnet=192.168.250.0/24 --ip-range=192.168.250
 
 Run the container:
 
-docker run --privileged -d --restart=unless-stopped --ip=192.168.250.23 --hostname=myregistry.domain --name=myregistry -p 2322:22 -v /sys/fs/cgroup:/sys/fs/cgroup --cap-add SYS_ADMIN slewdocker
+docker run --privileged -d --restart=unless-stopped --ip=192.168.250.23 --hostname=myhostname.domain --name=myhostname -p 2322:22 -v /sys/fs/cgroup:/sys/fs/cgroup --cap-add SYS_ADMIN slewdocker
